@@ -25,7 +25,7 @@ jobs:
             NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
         - name: Build project
-          run: dotnet build ./src/dotnet-setup-test.csproj
+          run: dotnet build
 
         - name: Generate Package
           run: dotnet pack -c Release -o out 
