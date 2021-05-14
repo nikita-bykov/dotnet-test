@@ -2,7 +2,7 @@ name: Test of dotnet
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
 
 jobs:
